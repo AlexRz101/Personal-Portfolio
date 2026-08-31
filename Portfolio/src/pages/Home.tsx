@@ -8,7 +8,7 @@ function Home() {
 
       <div className="flex flex-col gap-2 absolute left-[27%] top-[47%] -translate-x-1/2 -translate-y-1/2">
           <p className="text text-8xl [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">Alexander Ruiz</p>
-          <p className="text text-6xl [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">Web Dev/SWE</p>
+          <p className="text text-6xl [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">Web Developer/SWE</p>
           <p className="text text-6xl">Projects</p>
           <p className="text text-6xl">About Me</p>
           <p className="text text-6xl">Contact Me</p>

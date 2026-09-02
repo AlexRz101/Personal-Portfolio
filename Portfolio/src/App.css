@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #ffff00;
+  background-color: #f2e900 ;
 }
 
 .background-container {
@@ -49,9 +49,9 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("./assets/artapixel-city-5848267_1920.jpg");
+  background-image: url("./assets/artapixel-city-5848267_1920.png");
   background-size: cover;
   background-position: center;
-  opacity: 0.2;
+  opacity: 0.15;
   filter: grayscale(100%);
 }

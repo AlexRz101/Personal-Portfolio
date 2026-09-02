@@ -7,6 +7,17 @@
   font-style: normal;
 }
 
-.text {
+@font-face {
+  font-family: "Cyberpunk-readable";
+  src: url("./assets/Archivo_Black/ArchivoBlack-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2 {
   font-family: "Cyberpunk";
+}
+
+.text {
+  font-family: "Cyberpunk-readable";
 }

@@ -10,9 +10,10 @@ function Home() {
       <div className="flex flex-col gap-2 absolute left-[27%] top-[47%] -translate-x-1/2 -translate-y-1/2">
           <h1 className="text-8xl [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">Alexander Ruiz</h1>
           <h2 className="text-6xl [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">Web Developer/SWE</h2>
-          <Link to="/view-my-work" className="text text-6xl">View My Work</Link>
-          <Link to="/about" className="text text-6xl">About Me</Link>
-          <Link to="/contact" className="text text-6xl">Contact Me</Link>
+          
+          <Link to="/view-my-work" className="text text-6xl glitch">View My Work</Link>
+          <Link to="/about" className="text text-6xl glitch">About Me</Link>
+          <Link to="/contact" className="text text-6xl glitch">Contact Me</Link>
       </div>     
 
       <img src={firstImage} alt="description" className="image1" />

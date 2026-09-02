@@ -1,6 +1,6 @@
 #vertical-line {
   position: fixed;
-  left: 50%; /* center it, adjust as needed */
+  left: 50%;
   top: -20%;
   width: 4px;
   height: 150vh;
@@ -17,6 +17,7 @@ body {
   background-color: #f2e900;
 }
 
+/* Background container for the home page */
 .background-container {
   position: relative;
   width: 100%;
@@ -24,6 +25,7 @@ body {
   background-color: #f2e900;
 }
 
+/* Images on the home page */
 .image1 {
   position: fixed;
   left: 63%;       
@@ -40,6 +42,7 @@ body {
   z-index: 2;
 }
 
+/* Home's half black circle */
 .half-circle {
   position: fixed;
   left: 63%;        
@@ -52,6 +55,7 @@ body {
   z-index: 1;
 }
 
+/* Background image for the home page */
 .background-container::before {
   content: "";
   position: absolute;
@@ -61,4 +65,24 @@ body {
   background-position: center;
   opacity: 0.15;
   filter: grayscale(100%);
+}
+
+/* Glitch hover effect*/
+@keyframes glitch {
+  0%   { transform: translate(0); text-shadow: 2px 0 #ff00ff, -2px 0 #00f0ff; }
+  10%  { transform: translate(-3px, 1px); text-shadow: 3px 0 #ff00ff, -3px 0 #00f0ff; }
+  20%  { transform: translate(3px, -1px); text-shadow: -2px 0 #ff00ff, 2px 0 #00f0ff; }
+  30%  { transform: translate(-2px, 2px); text-shadow: -3px 0 #ff00ff, 3px 0 #00f0ff; }
+  40%  { transform: translate(2px, 2px); text-shadow: -3px 0 #ff00ff, 3px 0 #00f0ff; }
+  50%  { transform: translate(-2px, -1px); text-shadow: 2px 0 #ff00ff, -2px 0 #00f0ff; }
+  60%  { transform: translate(3px, 1px); text-shadow: -2px 0 #ff00ff, 2px 0 #00f0ff; }
+  70%  { transform: translate(-1px, 2px); text-shadow: 3px 0 #ff00ff, -3px 0 #00f0ff; }
+  80%  { transform: translate(1px, -2px); text-shadow: -2px 0 #ff00ff, 2px 0 #00f0ff; }
+  90%  { transform: translate(-3px, 1px); text-shadow: 3px 0 #ff00ff, -3px 0 #00f0ff; }
+  100% { transform: translate(0); text-shadow: 2px 0 #ff00ff, -2px 0 #00f0ff; }
+}
+
+.glitch:hover {
+  animation: glitch 1.5s infinite;
+  color: #000000;
 }

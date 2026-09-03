@@ -15,7 +15,10 @@ function Home() {
         <Link to="/about" className="text text-6xl glitch">About Me</Link>
         <Link to="/contact" className="text text-6xl glitch">Contact Me</Link>
 
-        <p className="text text-2xl">Welcome to my portfolio, Choom</p>
+        <div className="typewriter-container">
+          <p className="text text-2xl typewriter-line1">Wake up Samurai,</p>
+          <p className="text text-2xl typewriter-line2">we got a portfolio to look at.</p>
+        </div>
       </div>     
 
       <div className="flex items-center justify-end w-1/2">

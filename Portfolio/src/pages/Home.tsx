@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="flex h-screen background-container">
       <div className="flex flex-col justify-center items-start gap-2 z-1 pl-[clamp(1rem,20vw,100px)]">
-        <h1 className="text-8xl [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">Alexander Ruiz</h1>
+        <h1 className="text-[86px] leading-none whitespace-nowrap [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">Alexander Ruiz</h1>
         <h2 className="text-6xl [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">Web Developer/SWE</h2>
         
         <Link to="/view-my-work" className="text text-6xl glitch">View My Work</Link>

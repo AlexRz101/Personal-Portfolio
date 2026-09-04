@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
 
-function Navbar({ navBarColor, textColor } : { navBarColor: string, textColor: string }) {
-    return(
-        <nav className={`w-max h-1/8 bg-${navBarColor} text-${textColor}`}>
-            <ul>
+function Navbar({ navBarColor, textColor, shadowColor }: { navBarColor: string, textColor: string, shadowColor: string }) {
+    return (
+        <nav className={`${navBarColor} ${textColor} ${shadowColor} w-fit rounded-full shadow-md `}>
+            <ul className="flex items-center gap-6 px-6 py-3">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/view-my-work">View My Work</Link></li>
             </ul>
         </nav>
-    )
+    );
 }
 
 export default Navbar;

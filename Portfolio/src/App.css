@@ -29,6 +29,13 @@ body {
 }
 
 .glitch:hover {
-  animation: glitch 1.5s infinite;
-  color: #000000;
+    animation: glitch 1.5s infinite;
+}
+
+.glitch-yellow:hover {
+    color: #f2e900;
+}
+
+.glitch-black:hover {
+    color: #000000;
 }

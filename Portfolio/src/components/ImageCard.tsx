@@ -27,10 +27,15 @@ function ImageCard({
 }: ImageCardProps) {
 
     return (
-        <div className={`w-120 h-120 shadow-md ${shadowColor} ${outerBorderColor} p-0.5`}>
+        <div className={`responsive-card min-h-[500px] shadow-md ${shadowColor} ${outerBorderColor} p-0.5`}>
+            
             <div className={`flex flex-col items-center gap-2 h-full ${cardColor}`}>
                 
-                <img src={image} alt="Project" className="text-center" />
+                <img 
+                    src={image} 
+                    alt="Project" 
+                    className="w-full"
+                />
 
                 <h2 className={`text w-full text-2xl font-bold bg-black ${textColor1} border-b-2 ${innerBorderColor} pb-2 text-center`}>
                     {projectName}

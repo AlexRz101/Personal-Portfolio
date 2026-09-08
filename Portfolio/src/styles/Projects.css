@@ -1,0 +1,83 @@
+/* Large desktop */
+@media (min-width: 1536px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+}
+
+/* 1920px+ */
+@media (min-width: 1920px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.25rem;
+    }
+
+    p {
+        font-size: 1.75rem;
+    }
+
+    a {
+        font-size: 1.75rem;
+    }
+}
+
+/* 2560px+ */
+@media (min-width: 2560px) {
+    h1 {
+        gap: 2rem;
+        padding: 1rem 2.5rem;
+        font-size: 6rem;
+    }
+
+    h2 {
+        gap: 2.5rem;
+        padding: 1.25rem 3rem;
+        font-size: 4rem;
+    }
+
+    p {
+        gap: 0.5rem;
+        padding: 1.25rem 3rem;
+        font-size: 2rem;
+    }
+
+    a {
+        gap: 2.5rem;
+        padding: 1.25rem 3rem;
+        font-size: 2rem;
+    }
+}
+
+.responsive-card {
+    width: 100%;
+    min-height: 500px;
+}
+
+/* 1920px+ */
+@media (min-width: 1920px) {
+    .responsive-card {
+        width: 550px;
+    }
+}
+
+/* 2560px+ */
+@media (min-width: 2560px) {
+    .responsive-card {
+        width: 650px;
+    }
+}

@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import coinverseImage from "../assets/Screenshot 2026-09-04 105655.png";
 import road2csImage from "../assets/Screenshot 2026-09-04 110637.png";
 import skillSynthImage from "../assets/Screenshot 2025-10-18 121207.png";
+import '../styles/App.css';
+import '../styles/Projects.css';
 
 function Projects() {
     return (
@@ -18,7 +20,7 @@ function Projects() {
             </div>
 
             {/* Main Card Content */}
-            <div className="flex flex-col justify-center items-center mt-16 gap-6">
+            <div className="flex flex-col justify-center items-center mt-10 gap-6">
 
                 <h1 className="text text-4xl text-[#f2e900]"> Projects </h1>
 

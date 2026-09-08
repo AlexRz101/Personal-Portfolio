@@ -1,8 +1,8 @@
 import firstImage from '../assets/craiyon_133348_image.png'
 import secondImage from '../assets/craiyon_133437_image.png'
 import { Link } from 'react-router-dom'
-import '../Home.css'
-import '../App.css'
+import '../styles/Home.css'
+import '../styles/App.css'
 
 function Home() {
   return (

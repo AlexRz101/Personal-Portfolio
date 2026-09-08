@@ -1,0 +1,21 @@
+/* Default size — leave your current design alone */
+.responsive-card {
+    width: 100%;
+    min-height: 500px;
+}
+
+/* 1920px+ */
+@media (min-width: 1920px) {
+    .responsive-card {
+        width: 200px;
+        min-height: 500px;
+    }
+}
+
+/* 2560px+ */
+@media (min-width: 2560px) {
+    .responsive-card {
+        width: 700px;
+        min-height: 500px;
+    }
+}

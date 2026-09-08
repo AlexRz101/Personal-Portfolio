@@ -14,20 +14,24 @@ function Projects() {
             </div>
 
             {/* Main Card Content */}
-            <div className="flex justify-center items-center flex-col mt-16">
+            <div className="flex flex-col justify-center items-center mt-16 gap-2">
 
-                <h1 className="text text-[#f2e900]">Projects</h1>
+                <h1 className="text text-4xl text-[#f2e900]">Projects</h1>
                 <div className="flex flex-row gap-4">
-                    <Card projectName="Coinverse" image={coinverseImage} description="This project showcases my skills in web development."
-                        url="https://coinverse-exchange.vercel.app/"/>
+                    <Card projectName="Coinverse" image={coinverseImage} description="A full-stack currency converter supporting both real and fictional currencies. 
+                    Built solo with React on the frontend and Spring Boot + PostgreSQL on the backend. Features user auth with JWT, conversion history and email verification."
+                        url="https://coinverse-exchange.vercel.app/" cardColor="bg-[#f2e900]" textColor="text-[#1a1a1a]"/>
 
-                    <Card projectName="Road2CS" image={road2csImage} description="This project showcases my skills in web development."
-                        url="https://road2cs.vercel.app/"/>
+                    <Card projectName="Skill Synth" image={skillSynthImage} description="A full-stack hackathon MVP powered by 
+                        Machine Learning that analyzes your current skills and goals to generate a personalized learning curriculumn. 
+                        Contains an RPG level based system to pair with other users and learn together. Awarded 2nd place."
+                        url="https://github.com/AlexRz101/SkillSynth" cardColor="bg-[#f2e900]" textColor="text-[#1a1a1a]"/>
 
-                    <Card projectName="Skill Synth" image={skillSynthImage} description="This project showcases my skills in web development." 
-                        url="https://github.com/AlexRz101/SkillSynth"/>
+                    <Card projectName="Road2CS" image={road2csImage} description="A full-stack degree roadmap tool for CSUN CS students. 
+                        Built with React (frontend) and Spring Boot (backend). Lets students map out their semesters, swap GE courses and supports multiple schedule templates." 
+                        url="https://road2cs.vercel.app/" cardColor="bg-[#f2e900]" textColor="text-[#1a1a1a]"/>
                 </div>
-                
+
             </div>
         </div>
     );

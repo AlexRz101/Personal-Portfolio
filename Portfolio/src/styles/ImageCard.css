@@ -1,21 +1,51 @@
-/* Default size — leave your current design alone */
 .responsive-card {
     width: 100%;
-    min-height: 500px;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+    .responsive-card {
+        width: 300px;
+        min-height: 500px;
+    }
+}
+
+/* small laptop */
+@media (min-width: 1024px) {
+    .responsive-card {
+        width: 320px;
+        min-height: 520px;
+    }
+}
+
+/* 1280px */
+@media (min-width: 1280px) {
+    .responsive-card {
+        width: 380px;
+        min-height: 450px;
+    }
+}
+
+/* large desktop */
+@media (min-width: 1536px) {
+    .responsive-card {
+        width: 490px;
+        min-height: 580px;
+    }
 }
 
 /* 1920px+ */
 @media (min-width: 1920px) {
     .responsive-card {
-        width: 200px;
-        min-height: 500px;
+        width: 610px;
+        min-height: 590px;
     }
 }
 
 /* 2560px+ */
 @media (min-width: 2560px) {
     .responsive-card {
-        width: 700px;
-        min-height: 500px;
+        width: 750px;
+        min-height: 750px;
     }
 }

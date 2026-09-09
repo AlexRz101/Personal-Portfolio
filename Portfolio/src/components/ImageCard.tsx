@@ -1,3 +1,5 @@
+import '../styles/ImageCard.css';
+
 type ImageCardProps = {
     projectName: string;
     image: string;
@@ -27,7 +29,7 @@ function ImageCard({
 }: ImageCardProps) {
 
     return (
-        <div className={`responsive-card min-h-[500px] shadow-md ${shadowColor} ${outerBorderColor} p-0.5`}>
+        <div className={`responsive-card shadow-md ${shadowColor} ${outerBorderColor} p-0.5`}>
             
             <div className={`flex flex-col items-center gap-2 h-full ${cardColor}`}>
                 

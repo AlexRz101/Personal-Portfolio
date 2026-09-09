@@ -39,3 +39,73 @@ body {
 .glitch-black:hover {
     color: #000000;
 }
+
+/* base (mobile) */
+.responsive-navbar ul {
+    gap: 0.75rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+    .responsive-navbar ul {
+        gap: 1rem;
+        padding: 0.6rem 1.25rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* small laptop */
+@media (min-width: 1024px) {
+    .responsive-navbar ul {
+        gap: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+/* 1280px short screens */
+@media (min-width: 1280px) {
+    .responsive-navbar ul {
+        gap: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.25rem;
+    }
+}
+
+/* large desktop */
+@media (min-width: 1536px) {
+    .responsive-navbar ul {
+        gap: 2rem;
+        padding: 1rem 2rem;
+        font-size: 1.25rem;
+    }
+}
+
+/* 1920px+ */
+@media (min-width: 1920px) {
+    .responsive-navbar ul {
+        gap: 2.5rem;
+        padding: 1.25rem 2.5rem;
+        font-size: 1.25rem;
+    }
+}
+
+/* 1920px+ short screens */
+@media (min-width: 1920px) and (max-height: 850px) {
+    .responsive-navbar ul {
+        gap: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+/* 2560px+ */
+@media (min-width: 2560px) {
+    .responsive-navbar ul {
+        gap: 3rem;
+        padding: 1.5rem 3rem;
+        font-size: 1.75rem;
+    }
+}

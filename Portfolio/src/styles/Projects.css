@@ -1,7 +1,84 @@
+/* tablet */
+@media (min-width: 768px)  { 
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+
+    a {
+        font-size: 1.25rem;
+    }
+}
+
+/* small laptop */
+@media (min-width: 1024px) { 
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+
+    a {
+        font-size: 1.25rem;
+    }
+}
+
+/* 1280px wide, height 800px or less */
+@media (min-width: 1280px) {
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    a {
+        font-size: 1.25rem;
+    }
+}
+
 /* Large desktop */
 @media (min-width: 1536px) {
     h1 {
-        font-size: 4.5rem;
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+}
+
+/* 1920px+ */
+@media (min-width: 1920px) {
+    h1 {
+        font-size: 3rem;
     }
 
     h2 {
@@ -17,22 +94,21 @@
     }
 }
 
-/* 1920px+ */
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (max-height: 850px) {
     h1 {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 3.25rem;
+        font-size: 1.75rem;
     }
 
     p {
-        font-size: 1.75rem;
+        font-size: 1.25rem;
     }
 
     a {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -63,21 +139,33 @@
     }
 }
 
-.responsive-card {
-    width: 100%;
-    min-height: 500px;
-}
-
-/* 1920px+ */
-@media (min-width: 1920px) {
-    .responsive-card {
-        width: 550px;
-    }
-}
-
 /* 2560px+ */
-@media (min-width: 2560px) {
-    .responsive-card {
-        width: 650px;
+@media (min-width: 2560px) and (max-height: 850px) {
+    h1 {
+        gap: 1rem;
+        padding: 1rem 2.5rem;
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        gap: 2.5rem;
+        padding: 1.25rem 3rem;
+        font-size: 1.5rem;
+    }
+
+    p {
+        gap: 0.5rem;
+        padding: 1.25rem 3rem;
+        font-size: 1rem;
+    }
+
+    a {
+        gap: 2.5rem;
+        padding: 1.25rem 3rem;
+        font-size: 1.5rem;
     }
 }
+
+/* ── Preferences ── */
+@media (prefers-color-scheme: dark)    { }
+@media (prefers-reduced-motion: reduce) { }

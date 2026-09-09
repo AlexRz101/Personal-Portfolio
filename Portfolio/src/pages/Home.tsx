@@ -23,15 +23,15 @@ function Home() {
           Web Developer/SWE
         </h2>
 
-        <Link to="/view-my-work" className="text glitch glitch-black home-link leading-none">
+        <Link to="/view-my-work" className="text glitch glitch-black home-link leading-none z-3">
           View My Work
         </Link>
 
-        <Link to="/about" className="text glitch glitch-black home-link leading-none">
+        <Link to="/about" className="text glitch glitch-black home-link leading-none z-3">
           About Me
         </Link>
 
-        <Link to="/contact" className="text glitch glitch-black home-link leading-none">
+        <Link to="/contact" className="text glitch glitch-black home-link leading-none z-3">
           Contact Me
         </Link>
 

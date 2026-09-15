@@ -62,7 +62,7 @@ function Contact() {
               key={c.label}
               className="flex items-center gap-4 py-3 border-b border-[#333] last:border-0"
             >
-              <div className="rounded-lg bg-[#1a1a1a] flex items-center justify-center text-[#f2e900] text-lg flex-shrink-0">
+              <div className="responsive-contact-icon rounded-lg bg-[#1a1a1a] flex items-center justify-center text-[#f2e900] flex-shrink-0">
                 {c.icon}
               </div>
 

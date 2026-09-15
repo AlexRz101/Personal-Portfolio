@@ -13,19 +13,24 @@ body {
     overflow: hidden;
 }
 
-/* Glitch hover effect*/
+/* Glitch effect */
 @keyframes glitch {
-  0%   { transform: translate(0); text-shadow: 2px 0 #ff00ff, -2px 0 #00f0ff; }
-  10%  { transform: translate(-3px, 1px); text-shadow: 3px 0 #ff00ff, -3px 0 #00f0ff; }
-  20%  { transform: translate(3px, -1px); text-shadow: -2px 0 #ff00ff, 2px 0 #00f0ff; }
-  30%  { transform: translate(-2px, 2px); text-shadow: -3px 0 #ff00ff, 3px 0 #00f0ff; }
-  40%  { transform: translate(2px, 2px); text-shadow: -3px 0 #ff00ff, 3px 0 #00f0ff; }
-  50%  { transform: translate(-2px, -1px); text-shadow: 2px 0 #ff00ff, -2px 0 #00f0ff; }
-  60%  { transform: translate(3px, 1px); text-shadow: -2px 0 #ff00ff, 2px 0 #00f0ff; }
-  70%  { transform: translate(-1px, 2px); text-shadow: 3px 0 #ff00ff, -3px 0 #00f0ff; }
-  80%  { transform: translate(1px, -2px); text-shadow: -2px 0 #ff00ff, 2px 0 #00f0ff; }
-  90%  { transform: translate(-3px, 1px); text-shadow: 3px 0 #ff00ff, -3px 0 #00f0ff; }
-  100% { transform: translate(0); text-shadow: 2px 0 #ff00ff, -2px 0 #00f0ff; }
+  0%   { transform: translate(0); }
+  10%  { transform: translate(-3px, 1px); }
+  20%  { transform: translate(3px, -1px); }
+  30%  { transform: translate(-2px, 2px); }
+  40%  { transform: translate(2px, 2px); }
+  50%  { transform: translate(-2px, -1px); }
+  60%  { transform: translate(3px, 1px); }
+  70%  { transform: translate(-1px, 2px); }
+  80%  { transform: translate(1px, -2px); }
+  90%  { transform: translate(-3px, 1px); }
+  100% { transform: translate(0); }
+}
+
+.glitch {
+    display: inline-block;
+    position: relative;
 }
 
 .glitch:hover {
@@ -34,10 +39,19 @@ body {
 
 .glitch-yellow:hover {
     color: #f2e900;
+    text-shadow: 2px 0 #ff0000, -2px 0 #00ff00;
 }
 
 .glitch-black:hover {
     color: #000000;
+    text-shadow: 2px 0 #ff00ff, -2px 0 #00f0ff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .glitch:hover {
+        animation: none;
+        text-shadow: none;
+    }
 }
 
 /* base (mobile) */

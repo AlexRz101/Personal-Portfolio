@@ -1,10 +1,10 @@
-.responsive-card {
+.responsive-image-card {
     width: 100%;
 }
 
 /* tablet */
 @media (min-width: 768px) {
-    .responsive-card {
+    .responsive-image-card {
         width: 300px;
         min-height: 500px;
     }
@@ -12,7 +12,7 @@
 
 /* small laptop */
 @media (min-width: 1024px) {
-    .responsive-card {
+    .responsive-image-card {
         width: 320px;
         min-height: 520px;
     }
@@ -20,7 +20,7 @@
 
 /* 1280px */
 @media (min-width: 1280px) {
-    .responsive-card {
+    .responsive-image-card {
         width: 380px;
         min-height: 450px;
     }
@@ -28,7 +28,7 @@
 
 /* large desktop */
 @media (min-width: 1536px) {
-    .responsive-card {
+    .responsive-image-card {
         width: 490px;
         min-height: 580px;
     }
@@ -36,7 +36,7 @@
 
 /* 1920px+ */
 @media (min-width: 1920px) {
-    .responsive-card {
+    .responsive-image-card {
         width: 610px;
         min-height: 590px;
     }
@@ -44,7 +44,7 @@
 
 /* 2560px+ */
 @media (min-width: 2560px) {
-    .responsive-card {
+    .responsive-image-card {
         width: 750px;
         min-height: 750px;
     }

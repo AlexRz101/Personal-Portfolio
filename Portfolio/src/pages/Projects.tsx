@@ -8,7 +8,7 @@ import '../styles/Projects.css';
 
 function Projects() {
     return (
-        <div className="h-screen bg-[#1a1a1a]">
+        <div className="projects-page h-screen bg-[#1a1a1a]">
 
             {/* Navbar */}
             <div className="flex justify-center items-center py-4">

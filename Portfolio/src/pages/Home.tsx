@@ -15,6 +15,7 @@ function Home() {
       {/* Left Side */}
       <div className="flex flex-col justify-center items-start home-left z-3">
 
+        <p className="text text-lg underline"> WORK IN PROGRESS </p> <br></br>
         <h1 className="home-h1 leading-none whitespace-nowrap [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">
           Alexander Ruiz
         </h1>

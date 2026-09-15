@@ -48,7 +48,9 @@ function ImageCard({
                 </p>
 
                 <a 
-                    href={url} 
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={`text ${textColor1} bg-black hover:underline glitch ${glitchColor} mb-2`}
                 >
                     View Project

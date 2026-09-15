@@ -1,14 +1,17 @@
 import Navbar from "../components/Navbar"
 import "../styles/About.css"
 import cityBg from '../assets/artapixel-city-5848267_1920.png'
+import rightImage from '../assets/craiyon_124018_image.png'
+import leftImage from  '../assets/craiyon_123905_image.png'
+
 function About() {
     return (
         <div 
-            className="flex flex-col h-screen background-container overflow-hidden"
+            className="h-screen background-container overflow-hidden"
             style={{ '--bg-image': `url(${cityBg})` } as React.CSSProperties}
         >
             {/* Navbar centered at top */}
-            <div className="flex justify-center items-center py-4 z-10 w-full">
+            <div className="flex justify-center items-start py-8 w-full">
                 <Navbar 
                     navBarColor="bg-black"
                     textColor="text-[#f2e900]"
@@ -17,14 +20,18 @@ function About() {
             </div>
 
             {/* Page content below */}
-            <div className="flex justify-center items-center flex-col text-center mt-10 gap-6 z-10">
+            <div className="h-[70%] flex flex-col items-center justify-center text-center">
                 <h1 className="text">About Me</h1>
                 <p>Welcome to my about page!</p>
-                <p className="center">My name is Alexander Ruiz and I am a passionate Web Developer/Software Engineer. <br></br>
+                <p className="about-content center">My name is Alexander Ruiz and I am a passionate Web Developer/Software Engineer. <br></br>
                     I have experience in building web applications using modern technologies such as React, Spring Boot and PostgreSQL. <br></br> 
                     I enjoy solving complex problems and creating efficient solutions. <br></br>
                     In my free time, I like to explore new technologies and work on personal projects to enhance my skills.</p>
             </div>
+
+            <img src={leftImage} alt="description" className="leftImage" />
+            <img src={rightImage} alt="description" className="rightImage" />
+            <div className="rightCircle"></div>
         </div>
     );
 }

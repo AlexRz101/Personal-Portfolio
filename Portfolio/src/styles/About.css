@@ -13,4 +13,22 @@
     background-position: center;
     opacity: 0.2;
     filter: grayscale(100%);
+    pointer-events: none;
+}
+
+/* Image positioning */
+.leftImage {
+    position: fixed;
+    right: 73%;
+    top: 35%;
+    width: 450px;
+    z-index: 2;
+}
+
+.rightImage {
+    position: fixed;
+    left: 73%;
+    top: 25%;
+    width: 450px;
+    z-index: 2;
 }

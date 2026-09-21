@@ -22,13 +22,17 @@ function About() {
 
             {/* Page content below */}
             <div className="flex flex-col items-center justify-center text-center h-[70%] max-w-2xl mx-auto text-left">
-                <div className="bg-black rounded-[50%] px-30 py-34 flex flex-col items-center gap-3">
+                <div className="flex flex-col items-center gap-3 bg-black rounded-[50%] px-32 pt-10 pb-20">
                     <h1 className="text text-[#f2e900]">About Me</h1>
-                    <h2 className="text text-[#f2e900]">Welcome to my about page!</h2>
-                    <p className="about-content text-white">My name is Alexander Ruiz and I am a passionate Web Developer/Software Engineer.
-                        I have experience in building web applications using modern technologies such as React, Spring Boot and PostgreSQL.
-                        I enjoy solving complex problems and creating efficient solutions.
-                        In my free time, I like to explore new technologies and work on personal projects to enhance my skills.</p>
+                    <h2 className="text text-white">CSUN Computer Science Student</h2>
+                    <h3 className="text text-[#f2e900]">Open to work, choom</h3>
+                    <p className="about-content text-white"> My name is Alexander Ruiz, a full-stack web developer and Computer Science student at CSUN. 
+                        I build web applications using React, Spring Boot and PostgreSQL. <br /><br />
+                        Outside of school I'm into video games, anime and fitness. 
+                        I like finding ways to use those interests into my personal projects when I can. <br /><br /> 
+                        Currently looking for SWE/Web developer work.
+
+                    </p>
                 </div>
             </div>
 

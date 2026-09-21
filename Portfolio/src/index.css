@@ -1,3 +1,5 @@
+/* Global font and assets */
+
 @import "tailwindcss";
 
 @font-face {
@@ -14,30 +16,10 @@
   font-style: normal;
 }
 
-h1, h2 {
+.cyberpunk {
   font-family: "Cyberpunk";
 }
 
 .text {
   font-family: "Cyberpunk-readable";
-}
-
-.responsive-navbar {
-    /* Original size — untouched */
-}
-
-@media (min-width: 1536px) {
-    .responsive-navbar ul {
-        gap: 2rem;
-        padding: 1rem 2.5rem;
-        font-size: 1.25rem;
-    }
-}
-
-@media (min-width: 1920px) {
-    .responsive-navbar ul {
-        gap: 2.5rem;
-        padding: 1.25rem 3rem;
-        font-size: 2.5rem;
-    }
 }

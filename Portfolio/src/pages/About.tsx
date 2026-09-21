@@ -20,12 +20,12 @@ function About() {
             </div>
 
             {/* Page content below */}
-            <div className="h-[70%] flex flex-col items-center justify-center text-center">
+            <div className="flex flex-col items-center justify-center text-center h-[70%] max-w-2xl mx-auto text-left">
                 <h1 className="text">About Me</h1>
-                <p>Welcome to my about page!</p>
-                <p className="about-content center">My name is Alexander Ruiz and I am a passionate Web Developer/Software Engineer. <br></br>
-                    I have experience in building web applications using modern technologies such as React, Spring Boot and PostgreSQL. <br></br> 
-                    I enjoy solving complex problems and creating efficient solutions. <br></br>
+                <h2 className="text">Welcome to my about page!</h2>
+                <p className="about-content center">My name is Alexander Ruiz and I am a passionate Web Developer/Software Engineer.
+                    I have experience in building web applications using modern technologies such as React, Spring Boot and PostgreSQL.
+                    I enjoy solving complex problems and creating efficient solutions.
                     In my free time, I like to explore new technologies and work on personal projects to enhance my skills.</p>
             </div>
 

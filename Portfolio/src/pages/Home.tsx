@@ -16,11 +16,11 @@ function Home() {
       <div className="flex flex-col justify-center items-start home-left z-3">
 
         <p className="text text-lg underline"> WORK IN PROGRESS </p> <br></br>
-        <h1 className="home-h1 leading-none whitespace-nowrap [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">
+        <h1 className="home-h1 cyberpunk leading-none whitespace-nowrap [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">
           Alexander Ruiz
         </h1>
 
-        <h2 className="home-h2 leading-none whitespace-nowrap [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">
+        <h2 className="home-h2 cyberpunk leading-none whitespace-nowrap [text-shadow:0_0_10px_#00f0ff,0_0_20px_#00f0ff44]">
           Web Developer/SWE
         </h2>
 

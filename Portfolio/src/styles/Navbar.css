@@ -7,7 +7,7 @@
 
 /* tablet */
 @media (min-width: 768px) {
-    .responsive-navbar a, ul {
+    .responsive-navbar ul {
         gap: 1rem;
         padding: 0.6rem 1.25rem;
         font-size: 0.95rem;
@@ -16,43 +16,43 @@
 
 /* small laptop */
 @media (min-width: 1024px) {
-    .responsive-navbar a, ul {
+    .responsive-navbar ul {
         gap: 1.5rem;
-        padding: 0.75rem 1.5rem;
-        font-size: 1rem;
-    }
-}
-
-/* 1280px short screens */
-@media (min-width: 1280px) {
-    .responsive-navbar a, ul {
-        gap: 1.5rem;
-        padding: 0.75rem 0.25rem;
+        padding: 0.75rem 1.25rem;
         font-size: 1.5rem;
     }
 }
 
-/* large desktop */
+/* 1280px */
+@media (min-width: 1280px) {
+    .responsive-navbar ul {
+        gap: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.25rem;
+    }
+}
+
+/* large laptop */
 @media (min-width: 1536px) {
-    .responsive-navbar a, ul {
+    .responsive-navbar ul {
         gap: 2rem;
-        padding: 1rem 0.5rem;
+        padding: 1rem 1.5rem;
         font-size: 1.25rem;
     }
 }
 
 /* 1920px+ */
 @media (min-width: 1920px) {
-    .responsive-navbar a, ul {
+    .responsive-navbar ul {
         gap: 2.5rem;
-        padding: 1.25rem 1rem;
+        padding: 1.25rem 1.75rem;
         font-size: 2rem;
     }
 }
 
 /* 1920px+ short screens */
 @media (min-width: 1920px) and (max-height: 850px) {
-    .responsive-navbar a, ul {
+    .responsive-navbar ul {
         gap: 1.5rem;
         padding: 0.75rem 1.5rem;
         font-size: 1rem;
@@ -61,9 +61,15 @@
 
 /* 2560px+ */
 @media (min-width: 2560px) {
-    .responsive-navbar a, ul {
+    .responsive-navbar ul {
         gap: 3rem;
-        padding: 1.5rem 1rem;
+        padding: 1.5rem 2rem;
         font-size: 3rem;
     }
 }
+
+.responsive-navbar ul a {
+    font-size: inherit;
+    padding: 0;
+}
+

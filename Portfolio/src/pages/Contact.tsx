@@ -28,7 +28,7 @@ function Contact() {
   return (
     <div className="contact-page min-h-screen bg-[#1a1a1a]">
 
-      <div className="responsive-navbar flex justify-center items-start py-8">
+      <div className="flex justify-center items-start py-8">
         <Navbar
           navBarColor="bg-[#f2e900]"
           textColor="text-black"

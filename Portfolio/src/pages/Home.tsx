@@ -1,9 +1,9 @@
-import firstImage from '../assets/craiyon_133348_image.png'
-import secondImage from '../assets/craiyon_133437_image.png'
-import cityBg from '../assets/artapixel-city-5848267_1920.png'
-import { Link } from 'react-router-dom'
-import '../styles/Home.css'
-import '../styles/App.css'
+import firstImage from '../assets/craiyon_133348_image.png';
+import secondImage from '../assets/craiyon_133437_image.png';
+import cityBg from '../assets/artapixel-city-5848267_1920.png';
+import { Link } from 'react-router-dom';
+import '../styles/Home.css';
+import '../styles/App.css';
 
 function Home() {
   return (

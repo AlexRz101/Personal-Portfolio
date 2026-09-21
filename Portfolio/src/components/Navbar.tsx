@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import "../styles/Navbar.css";
 
 function Navbar({ navBarColor, textColor, shadowColor }: { navBarColor: string, textColor: string, shadowColor: string }) {
     return (
         <nav className={`${navBarColor} ${textColor} ${shadowColor} w-fit rounded-full shadow-md responsive-navbar`}>
-            <ul className="flex items-center gap-6 px-8 py-3 text-lg font-semibold">
+            <ul className="flex items-center font-semibold">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Contact</Link></li>

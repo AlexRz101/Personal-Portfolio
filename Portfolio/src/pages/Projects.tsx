@@ -11,7 +11,7 @@ function Projects() {
         <div className="projects-page h-screen bg-[#1a1a1a]">
 
             {/* Navbar */}
-            <div className="flex justify-center items-center py-8">
+            <div className="flex justify-center items-center py-8 responsive-navbar">
                 <Navbar
                     navBarColor="bg-[#f2e900]"
                     textColor="text-black"

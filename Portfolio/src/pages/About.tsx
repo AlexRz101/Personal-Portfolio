@@ -1,8 +1,9 @@
-import Navbar from "../components/Navbar"
-import "../styles/About.css"
-import cityBg from '../assets/artapixel-city-5848267_1920.png'
-import rightImage from '../assets/craiyon_124018_image.png'
-import leftImage from  '../assets/craiyon_123905_image.png'
+import Navbar from "../components/Navbar";
+import "../styles/About.css";
+import '../styles/App.css';
+import cityBg from '../assets/artapixel-city-5848267_1920.png';
+import rightImage from '../assets/craiyon_124018_image.png';
+import leftImage from  '../assets/craiyon_123905_image.png';
 
 function About() {
     return (

@@ -14,23 +14,23 @@
 @media (min-width: 1024px) {
     .responsive-image-card {
         width: 320px;
-        min-height: 520px;
+        min-height: 450px;
     }
 }
 
 /* 1280px */
 @media (min-width: 1280px) {
     .responsive-image-card {
-        width: 380px;
-        min-height: 450px;
+        width: 390px;
+        min-height: 430px;
     }
 }
 
-/* large desktop */
+/* large laptop */
 @media (min-width: 1536px) {
     .responsive-image-card {
         width: 490px;
-        min-height: 580px;
+        min-height: 550px;
     }
 }
 
@@ -38,7 +38,7 @@
 @media (min-width: 1920px) {
     .responsive-image-card {
         width: 610px;
-        min-height: 590px;
+        min-height: 700px;
     }
 }
 

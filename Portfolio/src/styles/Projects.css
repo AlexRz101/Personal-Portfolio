@@ -22,19 +22,19 @@
     /* small laptop */
     @media (min-width: 1024px) { 
         h1 {
-            font-size: 2rem;
+            font-size: 1.75rem;
         }
 
         h2 {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
         }
 
         p {
-            font-size: 1.25rem;
+            font-size: 1.05rem;
         }
 
         a {
-            font-size: 1.25rem;
+            font-size: 1.05rem;
         }
     }
 
@@ -42,38 +42,38 @@
     @media (min-width: 1280px) {
 
         h1 {
-            font-size: 1.75rem;
-        }
-
-        h2 {
             font-size: 1.5rem;
         }
 
+        h2 {
+            font-size: 1.25rem;
+        }
+
         p {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
 
         a {
-            font-size: 1.25rem;
+            font-size: 1rem;
         }
     }
 
-    /* Large desktop */
+    /* Large laptop */
     @media (min-width: 1536px) {
         h1 {
-            font-size: 2.5rem;
+            font-size: 2.1rem;
         }
 
         h2 {
-            font-size: 2rem;
+            font-size: 1.6rem;
         }
 
         p {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
         }
 
         a {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
     }
 
@@ -88,11 +88,11 @@
         }
 
         p {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
         }
 
         a {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
         }
     }
 
@@ -119,13 +119,13 @@
         h1 {
             gap: 2rem;
             padding: 1rem 2.5rem;
-            font-size: 6rem;
+            font-size: 4rem;
         }
 
         h2 {
             gap: 2.5rem;
             padding: 1.25rem 3rem;
-            font-size: 4rem;
+            font-size: 3.25rem;
         }
 
         p {

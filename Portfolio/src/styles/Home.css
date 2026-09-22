@@ -124,10 +124,13 @@ body {
 /* small laptop */
 @media (min-width: 1024px) {
     .home-left { padding-left: 5rem; gap: 0.5rem; }
-    .home-h1 { font-size: 5rem; }
-    .home-h2 { font-size: 3.5rem; }
-    .home-link { font-size: 3.5rem; color: black; }
-    .home-typewriter p { font-size: 1.5rem; }
+    .home-h1 { font-size: 3.5rem; }
+    .home-h2 { font-size: 2.5rem; }
+    .home-link { font-size: 2rem; color: black; }
+    .home-typewriter p { font-size: 1rem; }
+    .image1 { width: 550px; left: 60%; top: 12%; }
+    .image2 { width: 400px; left: 55%; top: 35%; }
+    .half-circle { width: 1000px; left: 60%;}
 }
 
 /* large laptop */

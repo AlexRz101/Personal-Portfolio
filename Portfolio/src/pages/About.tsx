@@ -8,7 +8,7 @@ import leftImage from  '../assets/craiyon_123905_image.png';
 function About() {
     return (
         <div 
-            className="h-screen background-container overflow-hidden"
+            className="about-page h-screen background-container overflow-hidden"
             style={{ '--bg-image': `url(${cityBg})` } as React.CSSProperties}
         >
             {/* Navbar centered at top */}
@@ -21,8 +21,8 @@ function About() {
             </div>
 
             {/* Page content below */}
-            <div className="flex flex-col items-center justify-center text-center h-[70%] max-w-2xl mx-auto text-left">
-                <div className="flex flex-col items-center gap-3 bg-black rounded-[50%] px-32 pt-10 pb-20">
+            <div className="flex flex-col items-center justify-center text-center h-[70%] mx-auto text-left">
+                <div className="about-ellipse flex flex-col items-center gap-3 bg-black rounded-[50%] px-32 pt-10 pb-20">
                     <h1 className="text text-[#f2e900]">About Me</h1>
                     <h2 className="text text-white">CSUN Computer Science Student</h2>
                     <h3 className="text text-[#f2e900]">Open to work, choom</h3>
@@ -31,14 +31,12 @@ function About() {
                         Outside of school I'm into video games, anime and fitness. 
                         I like finding ways to use those interests into my personal projects when I can. <br /><br /> 
                         Currently looking for SWE/Web developer work.
-
                     </p>
                 </div>
             </div>
 
             <img src={leftImage} alt="description" className="leftImage" />
             <img src={rightImage} alt="description" className="rightImage" />
-            <div className="rightCircle"></div>
         </div>
     );
 }

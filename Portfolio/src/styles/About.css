@@ -19,16 +19,87 @@
 /* Image positioning */
 .leftImage {
     position: fixed;
-    right: 73%;
-    top: 35%;
-    width: 450px;
+    right: 76%;
+    top: 40%;
+    width: 500px;
     z-index: 2;
 }
 
 .rightImage {
     position: fixed;
-    left: 73%;
-    top: 25%;
-    width: 450px;
+    left: 76%;
+    top: 28%;
+    width: 500px;
     z-index: 2;
+}
+
+/* Text ellipse */
+.about-ellipse {
+    width: 825px;
+    height: 460px;
+}
+
+/* About page content */
+.about-page h1 { font-size: 1.5rem; }
+.about-page h2 { font-size: 1.1rem; }
+.about-page h3 { font-size: 1rem; }
+.about-page p  { font-size: 0.85rem; }
+
+@media (min-width: 768px) {
+    .about-page h1 { font-size: 1.75rem; }
+    .about-page h2 { font-size: 1.25rem; }
+    .about-page h3 { font-size: 1.1rem; }
+    .about-page p  { font-size: 0.9rem; }
+    .leftImage { width: 350px; }
+    .rightImage { width: 350px; }
+}
+
+@media (min-width: 1024px) {
+    .about-page h1 { font-size: 1.5rem; }
+    .about-page h2 { font-size: 1.3rem; }
+    .about-page h3 { font-size: 1.3rem; }
+    .about-page p  { font-size: 0.95rem; }
+    .leftImage { width: 450px; right: 66%; }
+    .rightImage { width: 450px; left: 68%; }
+    .about-ellipse { width: 750px; height: 450px; }
+}
+
+@media (min-width: 1280px) {
+    .about-page h1 { font-size: 1.7rem; }
+    .about-page h2 { font-size: 1.4rem; }
+    .about-page h3 { font-size: 1.2rem; }
+    .about-page p  { font-size: 1rem; }
+    .leftImage { width: 400px; right: 75%; }
+    .rightImage { width: 400px; left: 78%; }
+    .about-ellipse { width: 850px; height: 450px; }
+}
+
+@media (min-width: 1536px) {
+    .about-page h1 { font-size: 1.5rem; }
+    .about-page h2 { font-size: 1.25rem; }
+    .about-page h3 { font-size: 1.25rem; }
+    .about-page p  { font-size: 1rem; }
+    .leftImage { width: 500px; }
+    .rightImage { width: 500px; }
+    .about-ellipse { width: 900px; height: 475px; }
+}
+
+@media (min-width: 1920px) {
+    .about-page h1 { font-size: 2.5rem; }
+    .about-page h2 { font-size: 1.75rem; }
+    .about-page h3 { font-size: 1.75rem; }
+    .about-page p  { font-size: 1.35rem; }
+    .leftImage { width: 600px; }
+    .rightImage { width: 600px; }
+    .about-ellipse { width: 1050px; height: 625px; }
+}
+
+@media (min-width: 2560px) {
+    .about-page h1 { font-size: 4rem; }
+    .about-page h2 { font-size: 2.5rem; }
+    .about-page h3 { font-size: 2rem; }
+    .about-page p  { font-size: 1.75rem; }
+    .leftImage { width: 800px; }
+    .rightImage { width: 800px; }
+    .about-ellipse { width: 1450px; height: 825px; }
 }

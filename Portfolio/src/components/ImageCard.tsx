@@ -36,6 +36,7 @@ function ImageCard({
                 <img 
                     src={image} 
                     alt="Project" 
+                    loading="lazy"
                     className="w-full"
                 />
 

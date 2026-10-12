@@ -45,6 +45,20 @@
 .about-page h3 { font-size: 1rem; }
 .about-page p  { font-size: 0.85rem; }
 
+@media (max-width: 767px) {
+    .about-content {
+        max-width: 250px;
+        width: 100%;
+    }
+    .about-page h1 { font-size: 1.75rem; }
+    .about-page h2 { font-size: 1.25rem; }
+    .about-page h3 { font-size: 1.1rem; }
+    .about-page p  { font-size: 0.9rem; }
+    .leftImage { width: 350px; }
+    .rightImage { width: 350px; }
+    .about-ellipse { width: 900px; height: 500px; }
+}
+
 @media (min-width: 768px) {
     .about-page h1 { font-size: 1.75rem; }
     .about-page h2 { font-size: 1.25rem; }

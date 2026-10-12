@@ -12,7 +12,7 @@ function About() {
             style={{ '--bg-image': `url(${cityBg})` } as React.CSSProperties}
         >
             {/* Navbar centered at top */}
-            <div className="flex justify-center items-start py-8 w-full">
+            <div className="flex flex-wrap justify-center items-start py-8 w-full">
                 <Navbar 
                     navBarColor="bg-black"
                     textColor="text-[#f2e900]"
@@ -21,7 +21,7 @@ function About() {
             </div>
 
             {/* Page content below */}
-            <div className="flex flex-col items-center justify-center text-center h-[70%] mx-auto text-left">
+            <div className="flex flex-col items-center justify-center text-center h-[70%] mx-auto text-left pt-14 md:pt-0">
                 <div className="about-ellipse flex flex-col items-center gap-3 bg-black rounded-[50%] px-32 pt-10 pb-20">
                     <h1 className="text text-[#f2e900]">About Me</h1>
                     <h2 className="text text-white">CSUN Computer Science Student</h2>

@@ -26,7 +26,7 @@ const contacts = [
 
 function Contact() {
   return (
-    <div className="contact-page bg-[#1a1a1a]">
+    <div className="contact-page bg-[#1a1a1a] pb-6">
 
       <div className="flex justify-center items-start py-8">
         <Navbar

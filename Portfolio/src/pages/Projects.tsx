@@ -8,7 +8,7 @@ import '../styles/Projects.css';
 
 function Projects() {
     return (
-        <div className="projects-page bg-[#1a1a1a] pb-10">
+        <div className="projects-page bg-[#1a1a1a] pb-6">
 
             {/* Navbar */}
             <div className="flex justify-center items-center py-8">

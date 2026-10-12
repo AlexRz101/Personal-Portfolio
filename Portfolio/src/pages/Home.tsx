@@ -48,8 +48,8 @@ function Home() {
 
       {/* Right Side */}
       <div className="flex items-center justify-end w-1/2">
-        <img src={firstImage} alt="description" {...{ fetchpriority: "high" }} className="image1" />
-        <img src={firstImage} alt="description" {...{ fetchpriority: "high" }} className="image1" />
+        <img src={firstImage} alt="description" className="image1" />
+        <img src={secondImage} alt="description" className="image2" />
         <div className="half-circle" />
       </div>
 

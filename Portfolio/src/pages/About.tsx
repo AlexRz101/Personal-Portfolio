@@ -8,7 +8,7 @@ import leftImage from  '../assets/craiyon_123905_image.png';
 function About() {
     return (
         <div 
-            className="about-page h-screen background-container overflow-hidden"
+            className="about-page background-container overflow-hidden bg-[#f2e900]"
             style={{ '--bg-image': `url(${cityBg})` } as React.CSSProperties}
         >
             {/* Navbar centered at top */}
@@ -35,8 +35,8 @@ function About() {
                 </div>
             </div>
 
-            <img src={leftImage} alt="description" loading="lazy" className="leftImage" />
-            <img src={rightImage} alt="description" loading="lazy" className="rightImage" />
+            <img src={leftImage} alt="description" loading="lazy" className="leftImage hidden md:flex" />
+            <img src={rightImage} alt="description" loading="lazy" className="rightImage hidden md:flex" />
         </div>
     );
 }

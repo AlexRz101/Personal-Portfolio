@@ -31,7 +31,7 @@ function ImageCard({
     return (
         <div className={`responsive-image-card shadow-md ${shadowColor} ${outerBorderColor} p-0.5`}>
             
-            <div className={`flex flex-col items-center gap-2 h-full ${cardColor}`}>
+            <div className={`flex flex-col items-center justify-center gap-2 h-full ${cardColor}`}>
                 
                 <img 
                     src={image} 

@@ -9,8 +9,16 @@
   z-index: 2;
 }
 
+html,
+body,
+#root {
+    min-height: 100%;
+    margin: 0;
+    background-color: #1a1a1a;
+}
+
 body {
-    overflow: hidden;
+    min-height: 100vh;
 }
 
 /* Glitch effect */

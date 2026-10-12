@@ -8,7 +8,7 @@ import '../styles/Projects.css';
 
 function Projects() {
     return (
-        <div className="projects-page h-screen bg-[#1a1a1a]">
+        <div className="projects-page bg-[#1a1a1a] pb-10">
 
             {/* Navbar */}
             <div className="flex justify-center items-center py-8">
@@ -24,7 +24,7 @@ function Projects() {
 
                 <h1 className="text text-4xl text-[#f2e900]"> Projects </h1>
 
-                <div className="flex flex-row gap-4">
+                <div className="flex flex-col md:flex-row gap-4">
 
                     <Card
                         projectName="Coinverse"

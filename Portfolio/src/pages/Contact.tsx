@@ -26,7 +26,7 @@ const contacts = [
 
 function Contact() {
   return (
-    <div className="contact-page min-h-screen bg-[#1a1a1a]">
+    <div className="contact-page bg-[#1a1a1a]">
 
       <div className="flex justify-center items-start py-8">
         <Navbar
@@ -36,7 +36,7 @@ function Contact() {
         />
       </div>
 
-      <div className="flex flex-col items-center px-4 pt-10">
+      <div className="flex flex-col items-center pt-10">
 
         <p className="text-xs font-medium tracking-widest text-[#f2e900] uppercase mb-3">
           Get in touch

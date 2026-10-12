@@ -1,5 +1,25 @@
 /* General contact page font sizing */
 .contact-page {
+
+    /* Phones */
+    @media (max-width: 767px)  { 
+        h1 {
+            font-size: 4rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.25rem;
+        }
+
+        a {
+            font-size: 1.25rem;
+        }
+    }
+
     /* tablet */
     @media (min-width: 768px)  { 
         h1 {
@@ -173,6 +193,13 @@
 /* Card sizing */
 .responsive-card {
     width: 100%;
+}
+
+/* Phones */
+@media (max-width: 767px) {
+  .responsive-card {
+    width: 325px;
+  }
 }
 
 /* tablet */

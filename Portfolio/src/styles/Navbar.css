@@ -6,6 +6,15 @@
 }
 
 /* tablet */
+@media (max-width: 767px) {
+    .responsive-navbar ul {
+        gap: 1rem;
+        padding: 0.6rem 1.25rem;
+        font-size: 1rem;
+    }
+}
+
+/* tablet */
 @media (min-width: 768px) {
     .responsive-navbar ul {
         gap: 1rem;

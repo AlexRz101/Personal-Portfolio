@@ -8,7 +8,7 @@ import '../styles/App.css';
 function Home() {
   return (
     <div 
-      className="flex h-screen background-container overflow-hidden"
+      className="flex background-container overflow-hidden bg-[#f2e900]"
       style={{ '--bg-image': `url(${cityBg})` } as React.CSSProperties}
     >
 
@@ -47,7 +47,7 @@ function Home() {
       <div id="vertical-line" />
 
       {/* Right Side */}
-      <div className="flex items-center justify-end w-1/2">
+      <div className="flex hidden md:flex items-center justify-end w-1/2">
         <img src={firstImage} alt="description" className="image1" />
         <img src={secondImage} alt="description" className="image2" />
         <div className="half-circle" />
